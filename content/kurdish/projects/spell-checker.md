@@ -9,7 +9,7 @@ paperIds: [5]
 datasetIds: [8, 9]
 technologies: ["شیکردنەوەی مۆرفۆلۆژی", "مۆدێلکردنی زمانە ئاماری", "فێربوونی ئامێر", "NLP"]
 applications: ["یارمەتیدەری نووسین", "نەرمەکاڵەی پەروەردەیی", "ئامرازەکانی دروستکردنی ناوەڕۆک"]
-team: ["zainab-hussein", "ahmad-kurdish"]
+team: ["zainab-hussein", "polla-fattah"]
 funding: "کۆنسۆرسیۆمی توێژینەوەی مرۆڤایەتی دیجیتاڵ"
 publications: 1
 datasets: 2

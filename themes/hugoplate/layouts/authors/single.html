@@ -16,6 +16,11 @@
             <!-- Author Avatar -->
             <div class="mb-6" style="display: flex; justify-content: center; align-items: center; width: 100%;">
               {{ $avatar := "/images/avatar.png" }}
+              {{ if $author.Params.image }}
+                {{ $avatar = $author.Params.image }}
+              {{ else if $author.Params.email }}
+                {{ $avatar = printf "https://www.gravatar.com/avatar/%s?s=200&d=identicon" (md5 $author.Params.email) }}
+              {{ end }}
               {{ partial "image" (dict "Src" $avatar "Size" "200x200" "Class" "rounded-full" "Alt" $author.Title) }}
             </div>
             

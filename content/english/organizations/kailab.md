@@ -8,7 +8,7 @@ category: "Research Laboratory"
 focus: ["Artificial Intelligence", "Natural Language Processing", "Kurdish Language Technology", "Digital Humanities"]
 paperIds: ["paper-1", "paper-2", "paper-3", "paper-4", "paper-5", "paper-6", "paper-7", "paper-8", "paper-9"]
 projectIds: ["asr", "ocr", "translation", "tts", "terminology-standardization", "summarization", "corpus-creation", "dictionary", "spell-checker"]
-memberIds: ["john-doe", "fatima-hassan", "ahmad-kurdish", "karim-mohammad", "mohammad-ali", "sara-ahmed", "zainab-hussein"]
+memberIds: ["john-doe", "fatima-hassan", "polla-fattah", "karim-mohammad", "mohammad-ali", "sara-ahmed", "zainab-hussein"]
 datasetIds: ["dataset-1", "dataset-2", "dataset-3", "dataset-4", "dataset-5", "dataset-6"]
 draft: false
 --- 

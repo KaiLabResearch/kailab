@@ -1,24 +1,25 @@
 {
   "main": [
     {
-      "name": "facebook",
-      "icon": "fab fa-facebook",
-      "link": "https://www.facebook.com/"
+      "name": "huggingface",
+      "icon": "fa fa-face-smile",
+      "link": "https://huggingface.co/KaiLabResearch"
     },
     {
       "name": "twitter",
       "icon": "fab fa-twitter",
-      "link": "https://twitter.com/"
+      "link": "https://x.com/KailabResearch"
     },
     {
       "name": "github",
       "icon": "fab fa-github",
-      "link": "https://www.github.com/"
+      "link": "https://github.com/KaiLabResearch"
     },
     {
       "name": "linkedin",
       "icon": "fab fa-linkedin",
-      "link": "https://www.linkedin.com/"
+      "link": "https://www.linkedin.com/company/kailab-research/"
     }
   ]
 }
+

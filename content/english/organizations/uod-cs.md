@@ -9,7 +9,7 @@ layout: "organizations/single"
 focus: ["Computer Science", "Machine Learning", "Natural Language Processing", "Academic Research"]
 paperIds: ["paper-1", "paper-2", "paper-3", "paper-4", "paper-5"]
 projectIds: ["asr", "ocr", "translation", "tts", "summarization"]
-memberIds: ["john-doe", "ahmad-kurdish", "karim-mohammad", "mohammad-ali"]
+memberIds: ["john-doe", "polla-fattah", "karim-mohammad", "mohammad-ali"]
 datasetIds: ["dataset-1", "dataset-2", "dataset-3", "dataset-4", "dataset-5"]
 draft: false
 --- 

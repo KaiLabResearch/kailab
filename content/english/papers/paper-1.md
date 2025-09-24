@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning Approaches for Kurdish Optical Character Recognition"
-authors: ["ahmad-kurdish", "sara-ahmed", "fatima-hassan"]
+authors: ["polla-fattah", "sara-ahmed", "fatima-hassan"]
 abstract: "This paper presents a comprehensive study on applying deep learning techniques to Kurdish OCR, addressing unique challenges in Kurdish script recognition including diacritical marks and font variations. Our CNN-based approach achieves 97.2% accuracy on historical Kurdish manuscripts."
 doiUrl: "https://doi.org/10.1000/ocr-kurdish-2023"
 datasetIds: ["dataset-1", "dataset-2"]

@@ -1,6 +1,6 @@
 ---
 title: "Comprehensive Kurdish Digital Dictionary with Semantic Relations"
-authors: ["ahmad-kurdish", "fatima-hassan"]
+authors: ["polla-fattah", "fatima-hassan"]
 abstract: "Development of a comprehensive digital dictionary for Kurdish with 150,000 entries, including semantic relationships, etymology, and cross-dialectal variations using lexicographic principles."
 doiUrl: "https://doi.org/10.1000/dict-kurdish-2023"
 datasetIds: ["dataset-11", "dataset-12"]

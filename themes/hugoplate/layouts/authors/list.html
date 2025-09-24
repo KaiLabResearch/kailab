@@ -28,6 +28,11 @@
                 <!-- Author Avatar -->
                 <div class="mb-4 flex justify-center author-avatar">
                   {{ $avatar := "/images/avatar.png" }}
+                  {{ if .Params.image }}
+                    {{ $avatar = .Params.image }}
+                  {{ else if .Params.email }}
+                    {{ $avatar = printf "https://www.gravatar.com/avatar/%s?s=120&d=identicon" (md5 .Params.email) }}
+                  {{ end }}
                   {{ partial "image" (dict "Src" $avatar "Size" "120x120" "Class" "rounded-full" "Alt" .Title) }}
                 </div>
                 

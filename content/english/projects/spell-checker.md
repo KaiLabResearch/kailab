@@ -9,7 +9,7 @@ paperIds: [5]
 datasetIds: [8, 9]
 technologies: ["Morphological Analysis", "Statistical Language Modeling", "Machine Learning", "NLP"]
 applications: ["Writing Assistance", "Educational Software", "Content Creation Tools"]
-team: ["zainab-hussein", "ahmad-kurdish"]
+team: ["zainab-hussein", "polla-fattah"]
 funding: "Digital Humanities Research Consortium"
 publications: 1
 datasets: 2

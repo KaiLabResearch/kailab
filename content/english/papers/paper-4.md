@@ -1,6 +1,6 @@
 ---
 title: "Text-to-Speech Synthesis for Kurdish Language"
-authors: ["fatima-hassan", "ahmad-kurdish"]
+authors: ["fatima-hassan", "polla-fattah"]
 abstract: "Development of the first high-quality TTS system for Kurdish using WaveNet architecture, addressing prosodic patterns and phonetic characteristics unique to Kurdish phonology."
 doiUrl: "https://doi.org/10.1000/tts-kurdish-2023"
 datasetIds: ["dataset-6", "dataset-7"]

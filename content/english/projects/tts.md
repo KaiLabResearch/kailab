@@ -9,7 +9,7 @@ paperIds: [4]
 datasetIds: [6, 7]
 technologies: ["WaveNet", "Neural Vocoding", "Prosodic Modeling", "Phonetic Analysis"]
 applications: ["Audiobook Production", "Accessibility Applications", "Educational Tools"]
-team: ["zainab-hussein", "ahmad-kurdish"]
+team: ["zainab-hussein", "polla-fattah"]
 funding: "National Science Foundation Digital Languages Grant"
 publications: 1
 datasets: 2

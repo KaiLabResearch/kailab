@@ -9,7 +9,7 @@ layout: "organizations/single"
 focus: ["Digital Humanities", "Cultural Heritage", "Text Analysis", "Digital Preservation"]
 paperIds: ["paper-1", "paper-2", "paper-3"]
 projectIds: ["corpus-creation", "dictionary", "terminology-standardization"]
-memberIds: ["john-doe", "fatima-hassan", "ahmad-kurdish"]
+memberIds: ["john-doe", "fatima-hassan", "polla-fattah"]
 datasetIds: ["dataset-1", "dataset-2", "dataset-3"]
 draft: false
 --- 

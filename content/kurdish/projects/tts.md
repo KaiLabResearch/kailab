@@ -9,7 +9,7 @@ paperIds: [4]
 datasetIds: [6, 7]
 technologies: ["WaveNet", "دەستکردنی نێرۆنی", "مۆدێلکردنی پرۆسۆدی", "شیکردنەوەی فۆنێتیک"]
 applications: ["بەرهەمهێنانی ئۆدیۆبووک", "بەرنامەکانی دەستگە", "ئامرازە پەروەردەییەکان"]
-team: ["zainab-hussein", "ahmad-kurdish"]
+team: ["zainab-hussein", "polla-fattah"]
 funding: "پێشکەشکردنی دیجیتاڵی زمانەکانی بنەڕەتی زانست"
 publications: 1
 datasets: 2

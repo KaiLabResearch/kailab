@@ -9,7 +9,7 @@ paperIds: [8]
 datasetIds: [10, 13]
 technologies: ["Natural Language Processing", "Deep Learning", "Discourse Analysis", "Information Extraction"]
 applications: ["News Aggregation", "Content Curation", "Research Assistance"]
-team: ["zainab-hussein", "ahmad-kurdish"]
+team: ["zainab-hussein", "polla-fattah"]
 funding: "Information Technology Innovation Fund"
 publications: 1
 datasets: 2

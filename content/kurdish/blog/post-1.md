@@ -4,7 +4,7 @@ description: "پۆستی نموونەیی یەکەم بە زمانی کوردی"
 date: 2024-01-01
 image: images/blog/post-1.jpg
 categories: ["تەکنەلۆجیا"]
-authors: ["ahmad-kurdish"]
+authors: ["polla-fattah"]
 tags: ["وێب", "گەشەپێدان"]
 draft: false
 ---

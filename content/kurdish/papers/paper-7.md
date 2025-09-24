@@ -1,6 +1,6 @@
 ---
 title: "فەرھەنگی دیجیتاڵی تەواوی کوردی بە پەیوەندییە مانایییەکان"
-authors: ["ahmad-kurdish", "fatima-hassan"]
+authors: ["polla-fattah", "fatima-hassan"]
 abstract: "پەرەپێدانی فەرھەنگێکی دیجیتاڵی بۆ کوردی بە ١٥٠,٠٠٠ دەھاتە، کە پەیوەندییە مانایییەکان، ئێتیمۆلۆجی، و جیاوازیەکانی ناو لەهچەکان لەخۆ دەگرێت بە پشتبەستن بە بنەماکانی فەرھەنگنووسی."
 doiUrl: "https://doi.org/10.1000/dict-kurdish-2023"
 datasetIds: ["dataset-11", "dataset-12"]
