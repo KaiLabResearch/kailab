@@ -7,7 +7,7 @@ established: "2021"
 category: "ئەکادیمیای زمان"
 layout: "organizations/single"
 focus: ["ستاندەردکردنی زمان", "تەکنەلۆجیای پەروەردەیی", "توێژینەوەی زمانەوانی", "فێربوونی دیجیتاڵی"]
-paperIds: ["paper-4", "paper-5", "paper-6"]
+paperIds: ["paper-4", "paper-5"]
 projectIds: ["dictionary", "spell-checker", "terminology-standardization"]
 memberIds: ["karim-mohammad", "mohammad-ali", "sara-ahmed"]
 datasetIds: ["dataset-4", "dataset-5", "dataset-6"]
