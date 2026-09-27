@@ -2,7 +2,7 @@
 title: "Kurdish Phonetic Pronunciation Dictionary"
 publishedDate: "2023-03-30"
 mainPaperId: "paper-4"
-paperIds: ["paper-3", "paper-4"]
+paperIds: ["paper-4"]
 githubUrl: "https://github.com/kailab/kurdish-pronunciation"
 description: "Comprehensive pronunciation dictionary for Kurdish containing phonetic transcriptions for 75,000 words, including stress patterns and dialectal variations using IPA notation."
 structure: "Dictionary files with word-pronunciation pairs, IPA transcription standards, Stress pattern annotations, Dialect variation markers"

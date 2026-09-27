@@ -2,7 +2,7 @@
 title: "فەرھەنگی لێخوێندنی فۆنێتیکیی کوردی"
 publishedDate: "2023-03-30"
 mainPaperId: "paper-4"
-paperIds: ["paper-3", "paper-4"]
+paperIds: ["paper-4"]
 githubUrl: "https://github.com/kailab/kurdish-pronunciation"
 description: "فەرھەنگێکی گشتگیر بۆ لێدوانی فۆنێتیکیی کوردی بە نیشانەکردنی فۆنێتیکی بۆ 75,000 وشە، بەهەمراهی شێوەی پڕێس و جیاوازیی لەهچە بە بنەمای IPA."
 structure: "پەڕگەی فەرھەنگ بە جفتە (وشە–لێدوان)، ستانداردەکانی نیشانەکردنی IPA، تاگەکانی شێوەی پڕێس، نیشانەکانی جیاوازی لەهچە"

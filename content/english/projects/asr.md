@@ -1,17 +1,16 @@
 ---
 title: "Automatic Speech Recognition (ASR)"
-shortDescription: "Voice recognition technology for Kurdish dialects and spoken language processing"
-description: "Comprehensive ASR system supporting all major Kurdish dialects with advanced domain adaptation techniques. Our research addresses acoustic modeling challenges unique to Kurdish phonology and achieves state-of-the-art performance on conversational speech recognition."
+shortDescription: "Research, datasets, and systems for automatic speech recognition across Kurdish varieties"
+description: "A curated overview of automatic speech recognition research for Kurdish, covering Central Kurdish (Sorani), Northern Kurdish (Kurmanji), Southern Kurdish, and Garrusi. The collected work spans early statistical and CMUSphinx-based systems through deep-learning, wav2vec 2.0 XLS-R, Whisper, and other Transformer-based approaches, together with the speech corpora and evaluation resources used to develop and benchmark these systems."
 icon: "fa-microphone"
 status: "active"
-startDate: "2022-03-10"
-paperIds: [3]
-datasetIds: [5, 6]
-technologies: ["Deep Neural Networks", "Acoustic Modeling", "Language Modeling", "Domain Adaptation"]
-applications: ["Voice Assistants", "Accessibility Tools", "Transcription Services"]
-team: ["john-doe", "fatima-hassan", "sara-ahmed"]
-funding: "International Speech Technology Research Initiative"
-publications: 1
-datasets: 2
+startDate: "2019-01-01"
+paperIds: [3, 10, 11, 12, 13, 14, 15, 16]
+datasetIds: [5, 7, 8, 9, 10, 11, 12]
+technologies: ["Automatic Speech Recognition", "Deep Learning", "LSTM", "CTC", "wav2vec 2.0", "XLS-R", "Whisper", "Transformer Models", "Language Modeling"]
+applications: ["Kurdish Speech Transcription", "Speech Interfaces", "Accessibility Technology", "Speech Resource Development", "Low-Resource Language Technology"]
+team: []
+publications: 8
+datasets: 7
 draft: false
---- 
+---

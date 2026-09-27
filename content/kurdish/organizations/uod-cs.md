@@ -7,7 +7,7 @@ established: "2005"
 category: "بەشی ئەکادیمی"
 layout: "organizations/single"
 focus: ["زانستی کۆمپیوتەر", "فێربوونی مەشین", "پرۆسێسکردنی زمانی سروشتی", "توێژینەوەی ئەکادیمی"]
-paperIds: ["paper-1", "paper-2", "paper-3", "paper-4", "paper-5"]
+paperIds: ["paper-1", "paper-2", "paper-4", "paper-5"]
 projectIds: ["asr", "ocr", "translation", "tts", "summarization"]
 memberIds: ["john-doe", "polla-fattah", "karim-mohammad", "mohammad-ali"]
 datasetIds: ["dataset-1", "dataset-2", "dataset-3", "dataset-4", "dataset-5"]
