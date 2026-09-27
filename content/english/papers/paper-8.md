@@ -1,18 +1,16 @@
 ---
-title: "Automatic Text Summarization for Kurdish News Articles"
-authors: ["sara-ahmed", "zainab-hussein"]
-abstract: "Extractive and abstractive summarization techniques adapted for Kurdish text, handling discourse markers and cultural context specific to Kurdish journalism and formal writing."
-doiUrl: "https://doi.org/10.1000/summ-kurdish-2023"
-datasetIds: ["dataset-10", "dataset-13"]
-citation: "Aziz, B., & Kareem, C. (2023). Automatic Text Summarization for Kurdish News Articles. Information Processing & Management, 60(4), 103401."
-publishedDate: "2023-05-25"
-journal: "Information Processing & Management"
-volume: "60"
-issue: "4"
-pages: "103401"
-doi: "10.1000/summ-kurdish-2023"
-keywords: ["Text Summarization", "Kurdish", "News Articles", "NLP"]
+title: "KurdSum: A new benchmark dataset for the Kurdish text summarization"
+authors: ["soran-badawi"]
+abstract: "Introduces KurdSum, a Kurdish news summarization benchmark containing more than 40,000 texts paired with human-written summaries. The study evaluates four extractive approaches (LexRank, TextRank, Oracle, and Lead-3) and three abstractive approaches (Pointer-Generator, Sequence-to-Sequence, and Transformer-based summarization), with Pointer-Generator achieving the strongest abstractive ROUGE results and Oracle the strongest extractive results."
+doiUrl: "https://doi.org/10.1016/j.nlp.2023.100043"
+datasetIds: ["dataset-13"]
+citation: "Badawi, S. (2023). KurdSum: A new benchmark dataset for the Kurdish text summarization. Natural Language Processing Journal, 5, 100043."
+publishedDate: "2023-12-01"
+journal: "Natural Language Processing Journal"
+volume: "5"
+pages: "100043"
+doi: "10.1016/j.nlp.2023.100043"
+keywords: ["Kurdish", "Automatic Text Summarization", "KurdSum", "News", "ROUGE", "Low-Resource NLP"]
 projectId: "summarization"
-organizationIds: [1, 5]
 draft: false
---- 
+---
