@@ -2,7 +2,7 @@
 title: "Kurdish Morphological Analysis Dataset"
 publishedDate: "2023-04-20"
 mainPaperId: "paper-2"
-paperIds: ["paper-2", "paper-5"]
+paperIds: ["paper-2"]
 githubUrl: "https://github.com/kailab/kurdish-morphology"
 description: "Comprehensive morphological analysis dataset containing 100,000 Kurdish words with detailed morphological breakdowns, POS tags, and inflectional information for both Sorani and Kurmanji dialects."
 structure: "CSV files with word forms and analyses, XML annotation schema, Documentation for morphological features"
