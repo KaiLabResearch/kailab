@@ -1,17 +1,14 @@
 ---
 title: "Digital Dictionary Development"
-shortDescription: "Comprehensive digital dictionaries with semantic relations and cross-dialectal coverage"
-description: "Development of comprehensive digital dictionaries for Kurdish with advanced semantic relationship modeling. Our lexicographic approach includes etymology, cross-dialectal variations, and semantic networks, providing rich linguistic resources for researchers and language learners."
+shortDescription: "Verified Kurdish electronic lexicography, lexical databases and machine-readable dictionary resources"
+description: "A curated review of existing Kurdish digital dictionary and lexical-resource research, including electronic lexicography, WordNet-aligned semantic resources, machine-readable lexicons, morphological dictionaries and supporting lexical tools across Kurdish varieties."
 icon: "fa-book"
-status: "active"
-startDate: "2022-01-10"
-paperIds: [7]
-datasetIds: [11, 12]
-technologies: ["Lexicography", "Semantic Networks", "Database Design", "Information Retrieval"]
-applications: ["Language Learning", "Translation Support", "Linguistic Research"]
-team: ["fatima-hassan", "sara-ahmed"]
-funding: "Digital Lexicography International Collaboration"
-publications: 1
-datasets: 2
+paperIds: [7, 24, 25, 26, 27, 28]
+datasetIds: [23, 24, 25, 26, 27, 28, 29]
+technologies: ["Electronic Lexicography", "OntoLex-Lemon", "RDF", "WordNet", "Morphological Analysis"]
+applications: ["Digital Dictionaries", "Lexical Research", "NLP Resources", "Language Technology"]
+team: []
+publications: 6
+datasets: 7
 draft: false
---- 
+---
