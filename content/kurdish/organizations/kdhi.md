@@ -7,9 +7,9 @@ established: "2019"
 category: "پڕۆژەی توێژینەوە"
 layout: "organizations/single"
 focus: ["مرۆڤایەتی دیجیتاڵی", "میراتی کەلتووری", "شیکردنەوەی تێکست", "پاراستنی دیجیتاڵی"]
-paperIds: ["paper-1", "paper-2"]
+paperIds: ["paper-1"]
 projectIds: ["corpus-creation", "dictionary", "terminology-standardization"]
 memberIds: ["john-doe", "fatima-hassan", "polla-fattah"]
-datasetIds: ["dataset-1", "dataset-2", "dataset-3"]
+datasetIds: ["dataset-1", "dataset-2"]
 draft: false
 --- 

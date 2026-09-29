@@ -1,17 +1,15 @@
 ---
 title: "Neural Machine Translation"
-shortDescription: "Advanced translation systems between Kurdish and major world languages"
-description: "Development of sophisticated neural machine translation systems that understand Kurdish's complex morphology and dialectal variations. Our transformer-based models incorporate morphological awareness and cultural context to provide accurate translations between Kurdish and English, Arabic, Turkish, and Persian."
+shortDescription: "Verified research, parallel corpora, benchmarks and multilingual models for Kurdish machine translation"
+description: "A curated overview of verified machine translation research involving Kurdish. The collection covers Northern Kurdish and Central Kurdish translation, parallel news and evaluation corpora, low-resource neural machine translation, and multilingual systems including NLLB. External publications and resources are attributed to their original creators and are not presented as KaiLab-developed systems."
 icon: "fa-language"
-status: "active"
-startDate: "2021-09-01"
-paperIds: [2]
-datasetIds: [3, 4]
-technologies: ["Transformer", "Neural Networks", "Morphological Analysis", "Attention Mechanisms"]
-applications: ["Cross-cultural Communication", "Content Localization", "Academic Translation"]
-team: ["fatima-hassan", "sara-ahmed"]
-funding: "European Union Horizon Research Grant"
-publications: 1
-datasets: 2
+startDate: "2018-01-01"
+paperIds: [2, 33, 34, 35, 36, 37]
+datasetIds: [3, 4, 35, 36, 37, 38, 39]
+technologies: ["Neural Machine Translation", "Transformer Models", "Multilingual Translation", "Parallel Corpora", "Low-Resource NLP"]
+applications: ["Kurdish Translation", "Multilingual Communication", "Machine Translation Evaluation", "Language Technology"]
+team: []
+publications: 6
+datasets: 7
 draft: false
---- 
+---

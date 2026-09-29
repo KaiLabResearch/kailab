@@ -1,17 +1,16 @@
 ---
-title: "Kurdish-English Parallel Translation Corpus"
-publishedDate: "2023-05-08"
+title: "Bianet Parallel News Corpus"
+publishedDate: "2018-01-01"
 mainPaperId: "paper-2"
 paperIds: ["paper-2"]
-githubUrl: "https://github.com/kailab/kurdish-english-parallel"
-description: "High-quality parallel corpus containing 500,000 sentence pairs for Kurdish-English translation, covering multiple domains and ensuring balanced representation of both Sorani and Kurmanji dialects."
-structure: "Tab-separated files with aligned sentences, Metadata including domain tags and quality scores, Source attribution files"
-cite: "Salim, N., & Rashid, L. (2023). Kurdish-English Parallel Translation Corpus. KaiLab Research Data Repository. https://doi.org/10.5281/kurd-en-parallel.v1"
-size: "450 MB"
+githubUrl: "https://huggingface.co/datasets/Helsinki-NLP/bianet"
+description: "Parallel news corpus containing Northern Kurdish (Kurmanji), English and Turkish material. The published study reports 6,486 English-Kurmanji and 7,390 Turkish-Kurmanji pairs; current distributions can contain slightly different release-specific counts."
+structure: "Line-aligned parallel text with downloadable corpus distributions and alignment metadata."
+cite: "Ataman, D. (2018). Bianet: A Parallel News Corpus in Turkish, Kurdish and English."
+size: "Release-specific; see official distribution"
 license: "CC BY-SA 4.0"
-format: ["TSV", "JSON"]
-languages: ["Kurdish (Sorani)", "Kurdish (Kurmanji)", "English"]
-domain: "Translation"
-organizationIds: [1, 5]
+format: ["TXT", "Parquet"]
+languages: ["Kurdish (Kurmanji)", "English", "Turkish"]
+domain: "Machine Translation"
 draft: false
---- 
+---

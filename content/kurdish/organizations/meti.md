@@ -10,6 +10,6 @@ focus: ["تەکنەلۆجیای پەروەردەیی", "فێربوونی دیج�
 paperIds: ["paper-9"]
 projectIds: ["translation", "tts", "summarization"]
 memberIds: ["zainab-hussein", "sara-ahmed", "fatima-hassan"]
-datasetIds: ["dataset-1", "dataset-2", "dataset-3"]
+datasetIds: ["dataset-1", "dataset-2"]
 draft: false
 --- 

@@ -10,6 +10,6 @@ focus: ["ستاندەردکردنی زمان", "تەکنەلۆجیای پەرو�
 paperIds: ["paper-4"]
 projectIds: ["dictionary", "spell-checker", "terminology-standardization"]
 memberIds: ["karim-mohammad", "mohammad-ali", "sara-ahmed"]
-datasetIds: ["dataset-4", "dataset-5", "dataset-6"]
+datasetIds: ["dataset-5", "dataset-6"]
 draft: false
 --- 
