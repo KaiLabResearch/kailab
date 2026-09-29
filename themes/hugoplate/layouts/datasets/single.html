@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ $dataset := . }}
-  
+
   {{ if $dataset.Params }}
     <section class="section-sm">
       <div class="container">
@@ -8,17 +8,21 @@
           <div class="col-12">
             <!-- Breadcrumb -->
             {{ partial "components/breadcrumb" (dict "Context" . "Class" "mb-6") }}
-            
+
             <!-- Dataset Header -->
             <article class="mb-8">
               <header class="mb-6">
                 <h1 class="h2 mb-4">{{ $dataset.Title }}</h1>
-                
+
                 <!-- Quick Info -->
                 <div class="flex flex-wrap gap-4 text-text-light dark:text-darkmode-text-light mb-4">
                   <div>
                     <i class="fas fa-calendar mr-2"></i>
-                    {{ if eq site.Language.Lang "ku" }}بڵاوکراوە:{{ else }}Published:{{ end }} {{ dateFormat "January 2, 2006" $dataset.Params.publishedDate }}
+                    {{ if $dataset.Params.publishedDate }}
+  {{ if eq site.Language.Lang "ku" }}ساڵ:{{ else }}Year:{{ end }} {{ dateFormat "2006" $dataset.Params.publishedDate }}
+{{ else }}
+  {{ if eq site.Language.Lang "ku" }}بەرواری بڵاوکردنەوە: پشتڕاست نەکراوەتەوە{{ else }}Publication date: Not verified{{ end }}
+{{ end }}
                   </div>
                   <div>
                     <i class="fas fa-hdd mr-2"></i>
@@ -79,7 +83,7 @@
                         {{ $org := where $organizations "File.BaseFileName" . }}
                         {{ if $org }}
                           {{ $org = index $org 0 }}
-                          <a href="{{ $org.RelPermalink }}" 
+                          <a href="{{ $org.RelPermalink }}"
                              class="inline-block bg-secondary/10 text-secondary dark:bg-darkmode-secondary/10 dark:text-darkmode-secondary text-sm px-3 py-1 rounded hover:underline">
                             {{ $org.Title }}
                           </a>
@@ -99,7 +103,7 @@
             <!-- Description -->
             <div class="content mb-8">
               <h2 class="h3 mb-4">
-                {{ if eq site.Language.Lang "ku" }}وەسفی داتاسێت{{ else }}Dataset Description{{ end }}
+                {{ if eq site.Language.Lang "ku" }}وەسفی سەرچاوە{{ else }}Resource Description{{ end }}
               </h2>
               <p class="text-justify">{{ $dataset.Params.description }}</p>
             </div>
@@ -128,7 +132,7 @@
                   </h3>
                   <div class="bg-light dark:bg-darkmode-light rounded-lg p-4">
                     <h4 class="h6 mb-2">
-                      <a href="{{ $mainPaper.RelPermalink }}" 
+                      <a href="{{ $mainPaper.RelPermalink }}"
                          class="text-primary dark:text-darkmode-primary hover:underline">
                         {{ $mainPaper.Title }}
                       </a>
@@ -160,7 +164,7 @@
                         {{ $paper = index $paper 0 }}
                         <div class="bg-light dark:bg-darkmode-light rounded-lg p-4">
                           <h4 class="h6 mb-2">
-                            <a href="{{ $paper.RelPermalink }}" 
+                            <a href="{{ $paper.RelPermalink }}"
                                class="text-primary dark:text-darkmode-primary hover:underline">
                               {{ $paper.Title }}
                             </a>
@@ -181,22 +185,24 @@
             {{ end }}
 
             <!-- Citation -->
-            <div class="mb-8">
-              <h3 class="h4 mb-4">
-                {{ if eq site.Language.Lang "ku" }}چۆن نووسراوە بکەین{{ else }}How to Cite{{ end }}
-              </h3>
-              <div class="bg-light dark:bg-darkmode-light rounded-lg p-4">
-                <p class="text-sm font-mono mb-3">{{ $dataset.Params.cite }}</p>
-                <button onclick="navigator.clipboard.writeText('{{ $dataset.Params.cite }}')" 
-                        class="btn btn-outline-primary btn-sm">
-                  <i class="fas fa-copy mr-1"></i>
-                  {{ if eq site.Language.Lang "ku" }}کۆپی نووسراوە{{ else }}Copy Citation{{ end }}
-                </button>
-              </div>
-            </div>
-          </div>
+    {{ with $dataset.Params.cite }}
+    <div class="mb-8">
+      <h3 class="h4 mb-4">
+        {{ if eq site.Language.Lang "ku" }}چۆن نووسراوە بکەین{{ else }}How to Cite{{ end }}
+      </h3>
+      <div class="bg-light dark:bg-darkmode-light rounded-lg p-4">
+        <p class="text-sm font-mono mb-3">{{ . }}</p>
+        <button onclick="navigator.clipboard.writeText('{{ . }}')"
+                class="btn btn-outline-primary btn-sm">
+          <i class="fas fa-copy mr-1"></i>
+          {{ if eq site.Language.Lang "ku" }}کۆپی نووسراوە{{ else }}Copy Citation{{ end }}
+        </button>
+      </div>
+    </div>
+    {{ end }}
+  </div>
 
-          <!-- Sidebar -->
+  <!-- Sidebar -->
           <div class="col-12 lg:col-4">
             <div class="bg-light dark:bg-darkmode-light rounded-lg p-6 sticky top-4">
               <!-- Quick Facts -->
@@ -237,8 +243,8 @@
                 <h4 class="h6 mb-3">
                   {{ if eq site.Language.Lang "ku" }}دەستگە بە داتا{{ else }}Data Access{{ end }}
                 </h4>
-                {{ if $dataset.Params.githubUrl }}
-                  <a href="{{ $dataset.Params.githubUrl }}" target="_blank" rel="noopener" 
+                {{ if or $dataset.Params.resourceUrl $dataset.Params.githubUrl }}
+                  <a href="{{ with $dataset.Params.resourceUrl }}{{ . }}{{ else }}{{ $dataset.Params.githubUrl }}{{ end }}" target="_blank" rel="noopener"
                      class="btn btn-primary w-full mb-3">
                     <i class="fas fa-download mr-2"></i>
                     {{ if eq site.Language.Lang "ku" }}داگرتنی داتاسێت{{ else }}Download Dataset{{ end }}
@@ -256,14 +262,14 @@
                   {{ $mainPaper := where $mainPaperPage "File.BaseFileName" $dataset.Params.mainPaperId }}
                   {{ if $mainPaper }}
                     {{ $mainPaper = index $mainPaper 0 }}
-                    <a href="{{ $mainPaper.RelPermalink }}" 
+                    <a href="{{ $mainPaper.RelPermalink }}"
                        class="btn btn-outline-primary btn-sm w-full">
                       <i class="fas fa-file-alt mr-2"></i>
                       {{ if eq site.Language.Lang "ku" }}بینینی وتاری سەرەکی{{ else }}View Main Paper{{ end }}
                     </a>
                   {{ end }}
                 {{ end }}
-                <a href="{{ `/datasets/` | relLangURL }}" 
+                <a href="{{ `/datasets/` | relLangURL }}"
                    class="btn btn-outline-primary btn-sm w-full">
                   <i class="fas fa-arrow-left mr-2"></i>
                   {{ if eq site.Language.Lang "ku" }}گەڕان بۆ داتاسێتەکان{{ else }}Back to Datasets{{ end }}

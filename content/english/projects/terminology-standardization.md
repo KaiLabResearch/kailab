@@ -1,19 +1,16 @@
 ---
 title: "Scientific Terminology Standardization"
-shortDescription: "Comprehensive standardization of Kurdish scientific and technical vocabulary across all domains"
-description: "Our most ambitious project involves the systematic creation and standardization of Kurdish terminology for scientific and technical concepts across all domains. This large-scale initiative includes consensus-building processes, cross-dialectal harmonization, and the creation of authoritative terminology databases that serve academic institutions, professional organizations, and translation services worldwide."
+shortDescription: "Verified research and terminology resources for Kurdish scientific and technical vocabulary"
+description: "A curated overview of documented work on Kurdish scientific and technical terminology. The collection covers terminology development, specialist glossaries, and studies of scientific translation in Central Kurdish and Northern Kurdish. It distinguishes proposed terms, descriptive research, and institutional terminology activity from formally adopted standards, and credits external resources to their original creators."
 icon: "fa-cogs"
 status: "active"
-startDate: "2020-09-01"
-paperIds: [9]
-datasetIds: [14, 15]
-technologies: ["Terminology Science", "Consensus Building", "Database Systems", "Standardization Methodologies"]
-applications: ["Academic Translation", "Professional Communication", "Educational Curricula", "Technical Documentation"]
-team: ["john-doe", "fatima-hassan", "karim-mohammad", "sara-ahmed"]
-funding: "UNESCO Language Preservation Initiative, Kurdistan Regional Government"
-publications: 1
-datasets: 2
-scale: "large"
-impact: "foundational"
+startDate: "1987-01-01"
+paperIds: [9, 44, 45, 46, 47, 48]
+datasetIds: [47, 48, 49, 50, 51]
+technologies: ["Terminology Development", "Lexicography", "Scientific Translation", "Technical Vocabulary"]
+applications: ["Scientific Communication", "Technical Translation", "Specialist Dictionaries", "Terminology Research"]
+team: []
+publications: 6
+datasets: 5
 draft: false
 ---

@@ -71,7 +71,6 @@ The absence of standardized scientific terminology in Kurdish represents one of 
 
 **Domain-Specific Terminology Development:** We've systematically addressed terminology gaps in critical fields:
 
-- **Medical Sciences:** Developed over 15,000 standardized medical terms covering anatomy, pathology, pharmacology, and clinical procedures
 - **Computer Science and IT:** Created comprehensive terminology for hardware, software, networking, and cybersecurity concepts
 - **Engineering Disciplines:** Established standardized terms for mechanical, electrical, civil, and chemical engineering
 - **Natural Sciences:** Developed terminology for physics, chemistry, biology, and environmental sciences
