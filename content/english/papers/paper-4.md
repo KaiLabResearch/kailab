@@ -1,17 +1,14 @@
 ---
-title: "Text-to-Speech Synthesis for Kurdish Language"
-authors: ["fatima-hassan", "polla-fattah"]
-abstract: "Development of the first high-quality TTS system for Kurdish using WaveNet architecture, addressing prosodic patterns and phonetic characteristics unique to Kurdish phonology."
-doiUrl: "https://doi.org/10.1000/tts-kurdish-2023"
-datasetIds: ["dataset-6", "dataset-7"]
-citation: "Salar, K., & Hama, D. (2023). Text-to-Speech Synthesis for Kurdish Language. IEEE Transactions on Audio, Speech, and Language Processing, 31, 1245-1258."
-publishedDate: "2023-04-05"
-journal: "IEEE Transactions on Audio, Speech, and Language Processing"
-volume: "31"
-pages: "1245-1258"
-doi: "10.1000/tts-kurdish-2023"
-keywords: ["TTS", "WaveNet", "Kurdish Phonology", "Speech Synthesis"]
+title: "A comparison between allophone, syllable, and diphone based TTS systems for Kurdish language"
+authors: ["wafa-barkhoda", "bahram-zahirazami", "anvar-bahrampour", "om-kolsoom-shahryari"]
+abstract: "A historical Kurdish text-to-speech study comparing concatenative synthesis systems based on allophone, syllable, and diphone units. The retrieved primary bibliographic metadata verifies the publication and comparison task, while detailed corpus characteristics and exact numerical evaluation results were not independently verified in this audit."
+doiUrl: "https://doi.org/10.1109/ISSPIT.2009.5407540"
+datasetIds: []
+citation: 'W. Barkhoda, B. ZahirAzami, A. Bahrampour, and O.-K. Shahryari, "A comparison between allophone, syllable, and diphone based TTS systems for Kurdish language," 2009 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT), 2009. doi:10.1109/ISSPIT.2009.5407540.'
+publishedDate: "2009-12-01"
+journal: "IEEE International Symposium on Signal Processing and Information Technology (ISSPIT)"
+doi: "10.1109/ISSPIT.2009.5407540"
+keywords: ["Kurdish", "Text-to-Speech", "Concatenative Synthesis", "Speech Synthesis"]
 projectId: "tts"
-organizationIds: [1, 4]
 draft: false
---- 
+---

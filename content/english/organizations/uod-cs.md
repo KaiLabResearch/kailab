@@ -7,7 +7,7 @@ established: "2005"
 category: "Academic Department"
 layout: "organizations/single"
 focus: ["Computer Science", "Machine Learning", "Natural Language Processing", "Academic Research"]
-paperIds: ["paper-4"]
+paperIds: []
 projectIds: ["asr", "ocr", "translation", "tts", "summarization"]
 memberIds: ["john-doe", "polla-fattah", "karim-mohammad", "mohammad-ali"]
 datasetIds: ["dataset-5"]

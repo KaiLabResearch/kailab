@@ -7,9 +7,9 @@ established: "2021"
 category: "Language Academy"
 layout: "organizations/single"
 focus: ["Language Standardization", "Educational Technology", "Linguistic Research", "Digital Learning"]
-paperIds: ["paper-4"]
+paperIds: []
 projectIds: ["dictionary", "spell-checker", "terminology-standardization"]
 memberIds: ["karim-mohammad", "mohammad-ali", "sara-ahmed"]
-datasetIds: ["dataset-5", "dataset-6"]
+datasetIds: ["dataset-5"]
 draft: false
 --- 

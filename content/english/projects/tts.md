@@ -1,17 +1,16 @@
 ---
-title: "Text-to-Speech Synthesis (TTS)"
-shortDescription: "Natural-sounding speech synthesis for Kurdish text and voice generation"
-description: "Development of high-quality TTS systems for Kurdish using advanced neural architectures. Our WaveNet-based approach captures Kurdish's unique prosodic patterns and phonetic characteristics, producing natural-sounding synthetic speech for both Sorani and Kurmanji dialects."
+title: "Kurdish Text-to-Speech and Speech Synthesis"
+shortDescription: "Verified research, speech corpora, and synthesis resources for Sorani and Kurmanji"
+description: "A curated overview of independently identifiable research and resources for generating Kurdish speech from text. It covers Sorani and Kurmanji studies, TTS-oriented speech corpora, and released synthesis resources. Each record credits its original creators and distinguishes published research, corpora, and externally released tools from KaiLab-owned work."
 icon: "fa-volume-up"
 status: "active"
-startDate: "2022-02-20"
-paperIds: [4]
-datasetIds: [6, 7]
-technologies: ["WaveNet", "Neural Vocoding", "Prosodic Modeling", "Phonetic Analysis"]
-applications: ["Audiobook Production", "Accessibility Applications", "Educational Tools"]
-team: ["zainab-hussein", "polla-fattah"]
-funding: "National Science Foundation Digital Languages Grant"
-publications: 1
-datasets: 2
+startDate: "2009-01-01"
+paperIds: [4, 49, 50, 51, 52, 53, 54, 55, 56]
+datasetIds: [6, 52, 53, 54, 55]
+technologies: ["Text-to-Speech", "Neural Speech Synthesis", "Transformers", "Diffusion Models", "VITS"]
+applications: ["Speech Synthesis", "Accessibility", "Audiobooks", "Educational Tools"]
+team: []
+publications: 9
+datasets: 5
 draft: false
---- 
+---
