@@ -9,7 +9,7 @@ layout: "organizations/single"
 focus: ["مرۆڤایەتی دیجیتاڵی", "میراتی کەلتووری", "شیکردنەوەی تێکست", "پاراستنی دیجیتاڵی"]
 paperIds: []
 projectIds: ["corpus-creation", "dictionary", "terminology-standardization"]
-memberIds: ["john-doe", "fatima-hassan", "polla-fattah"]
+memberIds: []
 datasetIds: []
 draft: false
---- 
+---

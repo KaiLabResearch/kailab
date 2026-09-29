@@ -9,7 +9,7 @@ layout: "organizations/single"
 focus: ["Language Standardization", "Educational Technology", "Linguistic Research", "Digital Learning"]
 paperIds: []
 projectIds: ["dictionary", "spell-checker", "terminology-standardization"]
-memberIds: ["karim-mohammad", "mohammad-ali", "sara-ahmed"]
-datasetIds: ["dataset-5"]
+memberIds: []
+datasetIds: []
 draft: false
---- 
+---

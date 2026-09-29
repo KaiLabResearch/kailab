@@ -1,6 +1,6 @@
 ---
 title: "End-to-End Kurdish Speech Synthesis Based on Transfer Learning"
-authors: ["sabat-salih-muhamad", "hadi-veisi"]
+authors: ["sabat-muhamad", "hadi-veisi"]
 abstract: "A Sorani Kurdish speech synthesis study using transfer learning from an English Tacotron 2 model with a pretrained HiFi-GAN vocoder. The experiment uses a single female speaker corpus of approximately ten hours and evaluates synthesized speech with native listeners."
 doiUrl: "https://doi.org/10.24271/psr.2022.351832.1149"
 datasetIds: []

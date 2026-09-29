@@ -9,7 +9,7 @@ layout: "organizations/single"
 focus: ["ستاندەردکردنی زمان", "تەکنەلۆجیای پەروەردەیی", "توێژینەوەی زمانەوانی", "فێربوونی دیجیتاڵی"]
 paperIds: []
 projectIds: ["dictionary", "spell-checker", "terminology-standardization"]
-memberIds: ["karim-mohammad", "mohammad-ali", "sara-ahmed"]
-datasetIds: ["dataset-5"]
+memberIds: []
+datasetIds: []
 draft: false
---- 
+---

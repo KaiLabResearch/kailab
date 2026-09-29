@@ -7,9 +7,9 @@ established: "2022"
 category: "Government Initiative"
 layout: "organizations/single"
 focus: ["Educational Technology", "Digital Learning", "Language Education", "Platform Development"]
-paperIds: ["paper-9"]
+paperIds: []
 projectIds: ["translation", "tts", "summarization"]
-memberIds: ["zainab-hussein", "sara-ahmed", "fatima-hassan"]
+memberIds: []
 datasetIds: []
 draft: false
---- 
+---

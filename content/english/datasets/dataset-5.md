@@ -1,4 +1,4 @@
-﻿---
+---
 title: "AsoSoft Speech Corpus"
 publishedDate: "2021-01-01"
 mainPaperId: "paper-3"
@@ -14,6 +14,3 @@ languages: ["Central Kurdish (Sorani)"]
 domain: "Automatic Speech Recognition"
 draft: false
 ---
-
-
-

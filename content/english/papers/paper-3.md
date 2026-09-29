@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Jira: a Central Kurdish speech recognition system, designing and building speech corpus and pronunciation lexicon"
 authors: ["hadi-veisi", "hawre-hosseini", "mohammad-mohammadamini", "wirya-fathy", "aso-mahmudi"]
 abstract: "Jira is a large-vocabulary speech recognition system for Central Kurdish (Sorani), developed together with a purpose-designed speech corpus and pronunciation lexicon. The work uses corpus design based on diphone distribution, acoustic modeling, and n-gram language modeling, reporting a word error rate of 13.9% on generic test items."
@@ -12,4 +12,3 @@ keywords: ["Automatic Speech Recognition", "Central Kurdish", "Sorani", "Speech 
 projectId: "asr"
 draft: false
 ---
-
