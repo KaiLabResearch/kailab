@@ -5,7 +5,7 @@ description: "پێداچوونەوەیەکی هەڵبژێردراو لە توێ�
 icon: "fa-spell-check"
 startDate: "2017-01-01"
 paperIds: [5, 29, 30, 31, 32]
-datasetIds: [30, 31, 32, 33, 34]
+datasetIds: [19, 30, 31, 33, 34]
 technologies: ["پشکنینی ڕێنووس", "شیکردنەوەی مۆرفۆلۆژی", "مۆدێلکردنی ئاماری زمان", "Edit Distance", "Hunspell"]
 applications: ["یارمەتی نووسین", "ئامرازە پەروەردەییە زمانییەکان", "Kurdish NLP"]
 team: []

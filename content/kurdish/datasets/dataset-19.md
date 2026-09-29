@@ -2,7 +2,7 @@
 title: "کۆرپەسی کتێبە قوتابخانەییە کوردییەکان (KTC)"
 publishedDate: "2019-01-01"
 mainPaperId: "paper-21"
-paperIds: ["paper-21"]
+paperIds: ["paper-21", "paper-31"]
 githubUrl: "https://github.com/KurdishBLARK/KTC"
 description: "کۆرپەسێکی سۆرانی کە لە کتێبە قوتابخانەییەکانی K-12 دروستکراوە و بەپێی بابەتی خوێندن ڕێکخراوە."
 structure: "دەقی ئاساییکراوەی کتێبە قوتابخانەییەکان لەگەڵ پۆلێنکردنی بەڵگەنامەکان بەسەر ١٢ بابەتی خوێندندا."

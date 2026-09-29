@@ -5,7 +5,7 @@ description: "A curated review of published Kurdish spelling-correction research
 icon: "fa-spell-check"
 startDate: "2017-01-01"
 paperIds: [5, 29, 30, 31, 32]
-datasetIds: [30, 31, 32, 33, 34]
+datasetIds: [19, 30, 31, 33, 34]
 technologies: ["Spell Checking", "Morphological Analysis", "Statistical Language Modeling", "Edit Distance", "Hunspell"]
 applications: ["Writing Assistance", "Educational Language Tools", "Kurdish NLP"]
 team: []

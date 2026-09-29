@@ -2,7 +2,7 @@
 title: "Kurdish Textbooks Corpus (KTC)"
 publishedDate: "2019-01-01"
 mainPaperId: "paper-21"
-paperIds: ["paper-21"]
+paperIds: ["paper-21", "paper-31"]
 githubUrl: "https://github.com/KurdishBLARK/KTC"
 description: "A Sorani corpus created from Kurdish K-12 textbooks and organized by educational subject."
 structure: "Normalized textbook text with document-level subject categorization across 12 subjects."
