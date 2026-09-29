@@ -7,9 +7,9 @@ established: "2020"
 category: "تاقیگەی توێژینەوە"
 layout: "organizations/single"
 focus: ["دەستووری دەستووری", "پڕۆسەی زمان بە سروشتی", "تەکنەلۆجیای زمانی کوردی", "مرۆڤایەتی دیجیتاڵی"]
-paperIds: ["paper-1", "paper-4", "paper-9"]
+paperIds: ["paper-4", "paper-9"]
 projectIds: ["asr", "ocr", "translation", "tts", "terminology-standardization", "summarization", "corpus-creation", "dictionary", "spell-checker"]
 memberIds: ["john-doe", "fatima-hassan", "polla-fattah", "karim-mohammad", "mohammad-ali", "sara-ahmed", "zainab-hussein"]
-datasetIds: ["dataset-1", "dataset-2", "dataset-5", "dataset-6"]
+datasetIds: ["dataset-5", "dataset-6"]
 draft: false
 --- 

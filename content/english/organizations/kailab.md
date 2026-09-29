@@ -6,9 +6,9 @@ location: "Kurdistan Region, Iraq"
 established: "2020"
 category: "Research Laboratory"
 focus: ["Artificial Intelligence", "Natural Language Processing", "Kurdish Language Technology", "Digital Humanities"]
-paperIds: ["paper-1", "paper-4", "paper-9"]
+paperIds: ["paper-4", "paper-9"]
 projectIds: ["asr", "ocr", "translation", "tts", "terminology-standardization", "summarization", "corpus-creation", "dictionary", "spell-checker"]
 memberIds: ["john-doe", "fatima-hassan", "polla-fattah", "karim-mohammad", "mohammad-ali", "sara-ahmed", "zainab-hussein"]
-datasetIds: ["dataset-1", "dataset-2", "dataset-5", "dataset-6"]
+datasetIds: ["dataset-5", "dataset-6"]
 draft: false
 --- 

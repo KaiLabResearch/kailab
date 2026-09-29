@@ -7,9 +7,9 @@ established: "2019"
 category: "Research Initiative"
 layout: "organizations/single"
 focus: ["Digital Humanities", "Cultural Heritage", "Text Analysis", "Digital Preservation"]
-paperIds: ["paper-1"]
+paperIds: []
 projectIds: ["corpus-creation", "dictionary", "terminology-standardization"]
 memberIds: ["john-doe", "fatima-hassan", "polla-fattah"]
-datasetIds: ["dataset-1", "dataset-2"]
+datasetIds: []
 draft: false
 --- 
