@@ -5,6 +5,7 @@ abstract: "A Kurmanji Kurdish study combining morphological lemmatization, chara
 doiUrl: "https://doi.org/10.21928/uhdjst.v7n1y2023.pp43-52"
 datasetIds: []
 citation: "Mustafa, H. H., & Nabi, R. M. (2023). Kurdish Kurmanji Lemmatization and Spell-checker with Spell-correction. UHD Journal of Science and Technology, 7(1), 43-52."
+publishedDate: "2023-01-01"
 journal: "UHD Journal of Science and Technology"
 volume: "7"
 issue: "1"

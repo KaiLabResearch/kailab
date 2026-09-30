@@ -5,6 +5,7 @@ abstract: "توێژینەوەیەک لەسەر لێماتایزکردن و چا�
 doiUrl: "https://doi.org/10.48550/arXiv.1809.10763"
 datasetIds: []
 citation: "Salavati, S., & Ahmadi, S. Building a Lemmatizer and a Spell-checker for Sorani Kurdish. Language & Technology Conference, 2017; arXiv version deposited 2018."
+publishedDate: "2018-09-28"
 doi: "10.48550/arXiv.1809.10763"
 keywords: ["پشکنینی ڕێنووس", "کوردی سۆرانی", "Lemmatization", "Edit Distance", "N-grams"]
 projectId: "spell-checker"

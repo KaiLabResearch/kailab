@@ -18,8 +18,8 @@
                 <div class="flex flex-wrap gap-4 text-text-light dark:text-darkmode-text-light mb-4">
                   <div>
                     <i class="fas fa-calendar mr-2"></i>
-                    {{ if $dataset.Params.publishedDate }}
-  {{ if eq site.Language.Lang "ku" }}ساڵ:{{ else }}Year:{{ end }} {{ dateFormat "2006" $dataset.Params.publishedDate }}
+                    {{ with $dataset.Params.publishedDate }}
+  {{ if eq site.Language.Lang "ku" }}ساڵ:{{ else }}Year:{{ end }} {{ dateFormat "2006" . }}
 {{ else }}
   {{ if eq site.Language.Lang "ku" }}بەرواری بڵاوکردنەوە: پشتڕاست نەکراوەتەوە{{ else }}Publication date: Not verified{{ end }}
 {{ end }}
@@ -141,7 +141,7 @@
                       {{ range $index, $authorId := $mainPaper.Params.authors }}
                         {{ if gt $index 0 }}, {{ end }}
                         {{ partial "author-display.html" $authorId }}
-                      {{ end }} ({{ dateFormat "2006" $mainPaper.Params.publishedDate }})
+                      {{ end }}{{ with $mainPaper.Params.publishedDate }} ({{ dateFormat "2006" . }}){{ end }}
                     </p>
                     <p class="text-sm">{{ truncate 200 $mainPaper.Params.abstract }}</p>
                   </div>
@@ -173,7 +173,7 @@
                             {{ range $index, $authorId := $paper.Params.authors }}
                               {{ if gt $index 0 }}, {{ end }}
                               {{ partial "author-display.html" $authorId }}
-                            {{ end }} ({{ dateFormat "2006" $paper.Params.publishedDate }})
+                            {{ end }}{{ with $paper.Params.publishedDate }} ({{ dateFormat "2006" . }}){{ end }}
                           </p>
                           <p class="text-sm">{{ truncate 150 $paper.Params.abstract }}</p>
                         </div>

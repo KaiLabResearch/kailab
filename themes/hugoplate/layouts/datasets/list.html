@@ -42,10 +42,12 @@
                   <!-- Dataset Info -->
                   <div class="text-text-light dark:text-darkmode-text-light text-sm mb-3">
                     <div class="flex flex-wrap gap-4 mb-2">
+                      {{ with .Params.publishedDate }}
                       <span>
                         <i class="fas fa-calendar mr-1"></i>
-                        {{ dateFormat "Jan 2006" .Params.publishedDate }}
+                        {{ dateFormat "Jan 2006" . }}
                       </span>
+                      {{ end }}
                       <span>
                         <i class="fas fa-hdd mr-1"></i>
                         {{ .Params.size }}

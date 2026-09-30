@@ -5,6 +5,7 @@ abstract: "ڕێبازێکی چاککردنەوەی ڕێنووسی کوردی ن�
 doiUrl: "https://doi.org/10.1109/IEC47844.2019.8950517"
 datasetIds: []
 citation: "Hawezi, R. S., Azeez, M. Y., & Qadir, A. A. (2019). Spell checking algorithm for agglutinative languages: Central Kurdish as an example. International Engineering Conference, 142-146."
+publishedDate: "2019-12-01"
 journal: "International Engineering Conference (IEC)"
 pages: "142-146"
 doi: "10.1109/IEC47844.2019.8950517"

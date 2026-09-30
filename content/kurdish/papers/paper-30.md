@@ -5,6 +5,7 @@ abstract: "سەرچاوەیەکی rule-basedی Hunspell بۆ پێشنیاری ڕ
 doiUrl: "https://doi.org/10.48550/arXiv.2109.06374"
 datasetIds: ["dataset-30", "dataset-31"]
 citation: "Ahmadi, S. (2021). Hunspell for Sorani Kurdish Spell Checking and Morphological Analysis. arXiv:2109.06374."
+publishedDate: "2021-09-11"
 doi: "10.48550/arXiv.2109.06374"
 keywords: ["Hunspell", "پشکنینی ڕێنووس", "کوردی سۆرانی", "شیکردنەوەی مۆرفۆلۆژی"]
 projectId: "spell-checker"

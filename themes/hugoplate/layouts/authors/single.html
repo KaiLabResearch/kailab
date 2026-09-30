@@ -166,7 +166,7 @@
                           </a>
                         </h4>
                         <p class="text-sm text-text-light dark:text-darkmode-text-light mb-2">
-                          {{ dateFormat "2006" .Params.publishedDate }} • {{ .Params.journal }}
+                          {{ with .Params.publishedDate }}{{ dateFormat "2006" . }}{{ end }}{{ if and .Params.publishedDate .Params.journal }} • {{ end }}{{ with .Params.journal }}{{ . }}{{ end }}
                         </p>
                         <p class="text-sm">{{ truncate 100 .Params.abstract }}</p>
                       </article>

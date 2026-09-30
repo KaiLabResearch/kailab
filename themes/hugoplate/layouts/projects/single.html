@@ -31,7 +31,7 @@
                 </div>
                 <div class="flex items-center">
                   <i class="fas fa-calendar mr-2 text-primary dark:text-darkmode-primary"></i>
-                  <span>{{ if eq site.Language.Lang "ku" }}توێژینەوە لە ساڵی:{{ else }}Research since:{{ end }} {{ dateFormat "2006" $project.Params.startDate }}</span>
+                  <span>{{ if eq site.Language.Lang "ku" }}توێژینەوە لە ساڵی:{{ else }}Research since:{{ end }} {{ with $project.Params.startDate }}{{ dateFormat "2006" . }}{{ end }}</span>
                 </div>
                 <div class="flex items-center">
                   <i class="fas fa-users mr-2 text-primary dark:text-darkmode-primary"></i>
@@ -93,7 +93,7 @@
                           {{ range $index, $authorId := $paper.Params.authors }}
                             {{ if gt $index 0 }}, {{ end }}
                             {{ partial "author-display.html" $authorId }}
-                          {{ end }} ({{ dateFormat "2006" $paper.Params.publishedDate }})
+                          {{ end }}{{ with $paper.Params.publishedDate }} ({{ dateFormat "2006" . }}){{ end }}
                         </p>
                         <p class="text-sm">{{ truncate 200 $paper.Params.abstract }}</p>
                       </div>
@@ -120,7 +120,7 @@
                           </a>
                         </h4>
                         <p class="text-sm text-text-light dark:text-darkmode-text-light mb-2">
-                          {{ if eq site.Language.Lang "ku" }}بڵاوکراوە:{{ else }}Published:{{ end }} {{ dateFormat "January 2, 2006" $dataset.Params.publishedDate }} | {{ if eq site.Language.Lang "ku" }}قەبارە:{{ else }}Size:{{ end }} {{ $dataset.Params.size }}
+                          {{ with $dataset.Params.publishedDate }}{{ if eq site.Language.Lang "ku" }}بڵاوکراوە:{{ else }}Published:{{ end }} {{ dateFormat "January 2, 2006" . }} | {{ end }}{{ if eq site.Language.Lang "ku" }}قەبارە:{{ else }}Size:{{ end }} {{ $dataset.Params.size }}
                         </p>
                         <p class="text-sm">{{ truncate 200 $dataset.Params.description }}</p>
                       </div>
