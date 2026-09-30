@@ -1,17 +1,15 @@
 ---
 title: "Intelligent Spell Checking"
-shortDescription: "Advanced spell checking systems using morphological analysis and statistical modeling"
-description: "Novel approach to Kurdish spell checking that leverages morphological decomposition and statistical language modeling. Our system handles Kurdish's rich inflectional morphology and provides context-aware corrections with high accuracy across different text domains."
+shortDescription: "Verified Kurdish spelling-correction research covering dictionary-based, morphological, contextual and statistical approaches"
+description: "A curated review of published Kurdish spelling-correction research and reusable external resources. The literature includes Sorani and Kurmanji word-level correction, Hunspell-based morphological resources and contextual statistical language models. Publications and resources are attributed to their original creators and are not presented as KaiLab-created systems."
 icon: "fa-spell-check"
-status: "active"
-startDate: "2022-05-15"
-paperIds: [5]
-datasetIds: [8, 9]
-technologies: ["Morphological Analysis", "Statistical Language Modeling", "Machine Learning", "NLP"]
-applications: ["Writing Assistance", "Educational Software", "Content Creation Tools"]
-team: ["zainab-hussein", "polla-fattah"]
-funding: "Digital Humanities Research Consortium"
-publications: 1
-datasets: 2
+startDate: "2017-01-01"
+paperIds: [5, 29, 30, 31, 32]
+datasetIds: [19, 30, 31, 33, 34]
+technologies: ["Spell Checking", "Morphological Analysis", "Statistical Language Modeling", "Edit Distance", "Hunspell"]
+applications: ["Writing Assistance", "Educational Language Tools", "Kurdish NLP"]
+team: []
+publications: 5
+datasets: 5
 draft: false
---- 
+---

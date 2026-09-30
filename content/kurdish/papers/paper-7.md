@@ -1,17 +1,13 @@
 ---
-title: "فەرھەنگی دیجیتاڵی تەواوی کوردی بە پەیوەندییە مانایییەکان"
-authors: ["polla-fattah", "fatima-hassan"]
-abstract: "پەرەپێدانی فەرھەنگێکی دیجیتاڵی بۆ کوردی بە ١٥٠,٠٠٠ دەھاتە، کە پەیوەندییە مانایییەکان، ئێتیمۆلۆجی، و جیاوازیەکانی ناو لەهچەکان لەخۆ دەگرێت بە پشتبەستن بە بنەماکانی فەرھەنگنووسی."
-doiUrl: "https://doi.org/10.1000/dict-kurdish-2023"
-datasetIds: ["dataset-11", "dataset-12"]
-citation: "جەمال، رێناس؛ و ساڵح، هەرش (2023). فەرھەنگی دیجیتاڵی تەواوی کوردی بە پەیوەندییە مانایییەکان. Lexikos، 33، 198–225."
-publishedDate: "2023-11-30"
-journal: "Lexikos"
-volume: "33"
-pages: "198-225"
-doi: "10.1000/dict-kurdish-2023"
-keywords: ["فەرھەنگی دیجیتاڵی", "فەرھەنگنووسی", "کوردی", "پەیوەندییە مانایییەکان"]
+title: "بەرەو فەرهەنگنووسی ئەلیکترۆنی بۆ زمانی کوردی"
+authors: ["sina-ahmadi", "hossein-hassani", "john-p-mccrae"]
+abstract: "توێژینەوەیەک لە فەرهەنگنووسی ئەلیکترۆنی بۆ زمانی کوردی کە ماددە فەرهەنگییەکان بە بەکارهێنانی OntoLex-Lemon و RDF دەگۆڕێت بۆ سەرچاوەی ڕێکخراو و خوێنراوەوە لەلایەن کۆمپیوتەر، و ماددەی فەرهەنگیی سۆرانی، کورمانجی و هەورامی دەگرێتەوە."
+datasetIds: ["dataset-23"]
+citation: "Ahmadi, S., Hassani, H., & McCrae, J. P. (2019). Towards Electronic Lexicography for the Kurdish Language. eLex 2019, 881-906."
+publishedDate: "2019-01-01"
+journal: "eLex 2019"
+pages: "881-906"
+keywords: ["کوردی", "فەرهەنگنووسی ئەلیکترۆنی", "OntoLex-Lemon", "RDF", "فەرهەنگی دیجیتاڵ"]
 projectId: "dictionary"
-organizationIds: [1, 2]
 draft: false
---- 
+---

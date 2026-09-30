@@ -1,17 +1,16 @@
 ---
-title: "کۆمەڵەداتای OCR ـی دەستنووسە مێژووییی کوردی"
-publishedDate: "2023-02-10"
+title: "KurdishOCR Ground Truth"
+publishedDate: "2021-01-01"
 mainPaperId: "paper-1"
 paperIds: ["paper-1"]
-githubUrl: "https://github.com/kailab/kurdish-historical-ocr"
-description: "کۆمەڵەداتایەکی گشتگیر کە 15,000 وێنەی دەستنووسە مێژووییەکانی کوردی لە سەدەی 18–20 لەخۆ دەگرێت، بە هاوپێچی نووسراوەکانی ڕاستەوخۆ (transcriptions) و مێتاداتا دەربارەی جیاوازی جۆری نووسین و دۆخی پاشپارەکردن."
-structure: "وێنەکان (PNG، 300 DPI)، پەڕگەی دەقی ڕاستەوخۆ (UTF-8)، مێتاداتا (فۆرماتی JSON لەگەڵ زانیاری دەستنووس، بەروار، هەرێم/ناوچە، جۆری نووسین)"
-cite: "مەحمود، ئارام؛ عەلی، سامان؛ و حەسەن، ڕۆژین (2023). کۆمەڵەداتای OCR ـی دەستنووسە مێژووییی کوردی. گەنجینەی داتای توێژینەوەی KaiLab. https://doi.org/10.5281/kurd-hist-ocr.v1"
-size: "2.3 GB"
-license: "CC BY-NC-SA 4.0"
-format: ["PNG", "TXT", "JSON"]
-languages: ["کوردی (سۆرانی)", "کوردی (کورمانجی)"]
-domain: "بەڵگەنامە مێژووییەکان"
-organizationIds: [1, 2]
+githubUrl: "https://github.com/KurdishBLARK/KurdishOCR"
+description: "داتای بنەڕەتی بڵاوکراوە بۆ توێژینەوەی OCRی دەقی چاپکراوی کوردیی سۆرانی لەلایەن Saman Idrees و Hossein Hassani. توێژینەوە پەیوەندیدارەکە 522 جووتی وێنەی دێڕ و نووسینەوە ڕاپۆرت دەکات."
+structure: "وێنەی دێڕ لەگەڵ نووسینەوەی دەقی و دابەشکراو بەسەر سێ ئەرشیفدا. یەکەم ئەرشیفی پشکنراو 178 وێنەی PNG و 178 پەڕگەی دەقی لەخۆدەگرێت."
+cite: "Idrees, S., & Hassani, H. (2021). Exploiting Script Similarities to Compensate for the Large Amount of Data in Training Tesseract LSTM: Towards Kurdish OCR."
+size: "522 جووتی وێنەی دێڕ و نووسینەوە بەگوێرەی توێژینەوە پەیوەندیدارەکە"
+license: "توێژینەوەکە GPL باس دەکات؛ وەشانی وردی مۆڵەتی کۆگاکە پشتڕاست نەکراوەتەوە"
+format: ["PNG", "TXT"]
+languages: ["کوردی (سۆرانی)"]
+domain: "OCRی دەقی چاپکراو"
 draft: false
---- 
+---

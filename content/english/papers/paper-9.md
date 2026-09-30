@@ -1,18 +1,14 @@
 ---
-title: "Systematic Kurdish Scientific Terminology Standardization"
-authors: ["mohammad-ali", "sara-ahmed", "karim-mohammad", "john-doe"]
-abstract: "A comprehensive framework for standardizing Kurdish scientific terminology across multiple domains, establishing consensus-building processes and creating authoritative terminology databases for academic and professional use."
-doiUrl: "https://doi.org/10.1000/term-standard-kurdish-2023"
-datasetIds: ["dataset-14", "dataset-15"]
-citation: "Mohammed, A., Ahmed, G., Karim, S., & Hassan, B. (2023). Systematic Kurdish Scientific Terminology Standardization. Terminology Science & Research, 34(2), 45-78."
-publishedDate: "2023-12-08"
-journal: "Terminology Science & Research"
-volume: "34"
-issue: "2"
-pages: "45-78"
-doi: "10.1000/term-standard-kurdish-2023"
-keywords: ["Terminology", "Standardization", "Kurdish", "Scientific Vocabulary", "Lexicography"]
+title: "The problam and the importance of scientific terms in Kurdish language"
+authors: ["shahab-tayib-tahir"]
+abstract: "A qualitative discussion of scientific terminology in Kurdish, including terminology development, word formation, and the distinction between linguistic and terminological meaning. The article discusses obstacles to developing scientific terminology and argues for coordinated work by specialists and institutions. It does not establish an adopted terminology standard."
+datasetIds: []
+citation: "شهاب طيب طاهر. (2013). The problam and the importance of scientific terms in Kurdish language. Alustath Journal for Human and Social Sciences, 2(207)."
+publishedDate: "2013-01-01"
+journal: "Alustath Journal for Human and Social Sciences"
+volume: "2"
+issue: "207"
+keywords: ["Scientific Terminology", "Kurdish", "Terminology Development", "Word Formation"]
 projectId: "terminology-standardization"
-organizationIds: [1, 3]
 draft: false
---- 
+---

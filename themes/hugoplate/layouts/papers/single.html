@@ -137,7 +137,11 @@
                         <div class="text-sm text-text-light dark:text-darkmode-text-light mb-2">
                           <span class="mr-4">
                             <i class="fas fa-calendar mr-1"></i>
-                            {{ dateFormat "January 2, 2006" $dataset.Params.publishedDate }}
+                            {{ if $dataset.Params.publishedDate }}
+  {{ dateFormat "2006" $dataset.Params.publishedDate }}
+{{ else }}
+  {{ if eq site.Language.Lang "ku" }}بەروار پشتڕاست نەکراوەتەوە{{ else }}Date not verified{{ end }}
+{{ end }}
                           </span>
                           <span class="mr-4">
                             <i class="fas fa-hdd mr-1"></i>

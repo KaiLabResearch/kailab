@@ -1,18 +1,13 @@
 ---
-title: "دروستکردن و ئالۆزکردنی کۆرپەسی گەورەی دەقی کوردی"
-authors: ["zainab-hussein", "mohammad-ali", "sara-ahmed"]
-abstract: "ڕێبازێکی تەواو بۆ دروستکردن و ئالۆزکردنی کۆرپەسێکی ٥٠ ملیۆن وشەیی بۆ کوردی پێشکەش دەکرێت کە بواره‌ جیاوازەکان و لەهچەکان لەخۆ دەگرێت، بە هاوکاری هەژمارکردنی خۆکارانەی کوالێتی و نیشانەکردنی زمانەوانی."
-doiUrl: "https://doi.org/10.1000/corpus-kurdish-2023"
-datasetIds: ["dataset-2", "dataset-8", "dataset-10"]
-citation: "عومەر، ژیان؛ حەسەن، کاردو؛ و عەلی، ئاسو (2023). دروستکردن و ئالۆزکردنی کۆرپەسی گەورەی دەقی کوردی. سەرچاوە زمانییەکان و هەژمێرکردن، 57(3)، 891–920."
-publishedDate: "2023-08-12"
-journal: "Language Resources and Evaluation"
-volume: "57"
-issue: "3"
-pages: "891-920"
-doi: "10.1000/corpus-kurdish-2023"
-keywords: ["کۆرپەس", "کوردی", "کۆکەوتنی دەق", "سەرچاوە زمانییەکان"]
+title: "Sorani Kurdish versus Kurmanji Kurdish: An Empirical Comparison"
+authors: ["kyumars-sheykh-esmaili", "shahin-salavati"]
+abstract: "بەراوردێکی ئەزموونیی سۆرانی و کورمانجی بە پشتبەستن بە کۆرپەسی هەواڵی Pewan، بۆ لێکۆڵینەوە لە تایبەتمەندییە زمانەوانی، وشەیی و ڕێنووسییەکانی هەردوو جۆرەکەی کوردی."
+datasetIds: ["dataset-16"]
+citation: "Sheykh Esmaili, K., & Salavati, S. (2013). Sorani Kurdish versus Kurmanji Kurdish: An Empirical Comparison. ACL 2013, Short Papers, 300-305."
+publishedDate: "2013-01-01"
+journal: "ACL 2013, Short Papers"
+pages: "300-305"
+keywords: ["کوردی", "سۆرانی", "کورمانجی", "کۆرپەس", "Pewan"]
 projectId: "corpus-creation"
-organizationIds: [1, 2]
 draft: false
---- 
+---

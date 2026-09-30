@@ -1,17 +1,16 @@
 ---
-title: "Kurdish Speech Recognition Audio Corpus"
-publishedDate: "2023-08-02"
+title: "AsoSoft Speech Corpus"
+publishedDate: "2021-01-01"
 mainPaperId: "paper-3"
 paperIds: ["paper-3"]
-githubUrl: "https://github.com/kailab/kurdish-speech-corpus"
-description: "Large-scale audio corpus containing 1,000 hours of Kurdish speech from 500+ speakers across different dialects, ages, and regions. Includes high-quality transcriptions and speaker metadata."
-structure: "WAV audio files (16kHz, mono), Transcript files with timestamps, Speaker metadata (demographics, dialect), Phonetic alignments"
-cite: "Kareem, H., Ahmed, R., & Jamal, S. (2023). Kurdish Speech Recognition Audio Corpus. KaiLab Research Data Repository. https://doi.org/10.5281/kurd-speech-corpus.v1"
-size: "12.5 GB"
-license: "CC BY-NC 4.0"
-format: ["WAV", "TXT", "JSON", "TextGrid"]
-languages: ["Kurdish (Sorani)", "Kurdish (Kurmanji)", "Kurdish (Pehlewani)"]
-domain: "Speech Recognition"
-organizationIds: [1, 4]
+githubUrl: "https://github.com/AsoSoft/AsoSoft-Speech-Corpus"
+description: "Central Kurdish (Sorani) speech corpus developed for automatic speech recognition and related speech-processing research. The full corpus reported in the Jira study contains 43.68 hours of speech from 576 speakers; the publicly released research subset is smaller."
+structure: "Recorded Central Kurdish speech with corresponding transcriptions; includes a publicly available research subset."
+cite: "Veisi, H., Hosseini, H., MohammadAmini, M., Fathy, W., & Mahmudi, A. Jira: a Central Kurdish speech recognition system, designing and building speech corpus and pronunciation lexicon."
+size: "43.68 hours (full corpus); public subset approximately 30 hours"
+license: "Research/non-commercial public subset"
+format: ["Audio", "Text Transcriptions"]
+languages: ["Central Kurdish (Sorani)"]
+domain: "Automatic Speech Recognition"
 draft: false
---- 
+---

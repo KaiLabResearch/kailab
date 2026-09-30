@@ -1,18 +1,13 @@
 ---
-title: "پشکنینی هەڵەنووس لە کوردی بە بەکارهێنانی شیکردنەوەی مورفۆلۆژیکی"
-authors: ["karim-mohammad", "john-doe"]
-abstract: "ڕێگایەکی نوێ بۆ پشکنینی هەڵەنووسی کوردی پێشکەش دەکەین کە شیکردنەوەی مورفۆلۆژیکی و مۆدێلی زمانی ئاماری بەکار دەهێنێت بۆ مامەڵەکردن لەگەڵ مورفۆلۆژیی دەستکەوتدار."
-doiUrl: "https://doi.org/10.1000/spell-kurdish-2023"
-datasetIds: ["dataset-8", "dataset-9"]
-citation: "دلشاد، شوان؛ و تاهیر، نەورۆز (2023). پشکنینی هەڵەنووس لە کوردی بە بەکارهێنانی شیکردنەوەی مورفۆلۆژیکی. ئینجینێری زمانی سروشتی، 29(4)، 567–589."
-publishedDate: "2023-07-18"
-journal: "Natural Language Engineering"
-volume: "29"
-issue: "4"
-pages: "567-589"
-doi: "10.1000/spell-kurdish-2023"
-keywords: ["پشکنینی هەڵەنووس", "شیکردنەوەی مورفۆلۆژیکی", "کوردی", "NLP"]
+title: "دروستکردنی Lemmatizer و پشکنەری ڕێنووس بۆ کوردی سۆرانی"
+authors: ["shahin-salavati", "sina-ahmadi"]
+abstract: "توێژینەوەیەک لەسەر لێماتایزکردن و چاککردنەوەی ڕێنووسی ئاستی وشە بۆ کوردی سۆرانی. پشکنەری Rênûs، n-gramی پیت، فرەوانی لە کۆرپەس، گەڕان لە فەرهەنگ و weighted edit distance تێکەڵ دەکات. نووسەران باشترین دروستی 96.4% لەگەڵ فەرهەنگ و 87% بەبێ فەرهەنگ ڕاپۆرت دەکەن."
+doiUrl: "https://doi.org/10.48550/arXiv.1809.10763"
+datasetIds: []
+citation: "Salavati, S., & Ahmadi, S. Building a Lemmatizer and a Spell-checker for Sorani Kurdish. Language & Technology Conference, 2017; arXiv version deposited 2018."
+doi: "10.48550/arXiv.1809.10763"
+keywords: ["پشکنینی ڕێنووس", "کوردی سۆرانی", "Lemmatization", "Edit Distance", "N-grams"]
 projectId: "spell-checker"
-organizationIds: [1, 4]
+organizationIds: []
 draft: false
---- 
+---

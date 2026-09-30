@@ -1,17 +1,16 @@
 ---
 title: "Optical Character Recognition (OCR)"
-shortDescription: "Advanced text recognition systems for Kurdish historical and modern documents"
-description: "Our OCR project focuses on developing state-of-the-art optical character recognition systems specifically designed for Kurdish texts. We address unique challenges including script variations, diacritical marks, and historical manuscript preservation. Our deep learning approaches achieve over 95% accuracy on degraded historical texts."
+shortDescription: "Verified research and resources for printed, handwritten and scene-text recognition in Kurdish"
+description: "A curated overview of verified Kurdish optical character recognition and handwritten text recognition research. The collection covers printed Sorani OCR, historical print, isolated handwritten characters, handwritten lines and Kurdish scene text. Publications, datasets and reported results are attributed to their original creators and evaluation settings."
 icon: "fa-eye"
 status: "active"
-startDate: "2022-01-15"
-paperIds: [1]
-datasetIds: [1, 2]
-technologies: ["Deep Learning", "CNN", "Computer Vision", "Image Processing"]
-applications: ["Historical Document Preservation", "Digital Archives", "Text Digitization"]
-team: ["john-doe", "karim-mohammad", "mohammad-ali"]
-funding: "Kurdistan Regional Government Research Grant"
-publications: 1
-datasets: 2
+startDate: "2021-01-01"
+paperIds: [1, 38, 39, 40, 41, 42, 43]
+datasetIds: [1, 40, 41, 42, 43, 44, 45, 46]
+technologies: ["Optical Character Recognition", "Handwritten Text Recognition", "Tesseract", "Computer Vision", "Vision Transformers"]
+applications: ["Document Digitization", "Historical Print Processing", "Handwriting Recognition", "Scene Text Recognition"]
+team: []
+publications: 7
+datasets: 8
 draft: false
---- 
+---

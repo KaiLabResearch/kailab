@@ -1,17 +1,15 @@
 ---
 title: "Corpus Creation and Analysis"
-shortDescription: "Large-scale Kurdish text corpus development with linguistic annotation and analysis"
-description: "Systematic creation and analysis of comprehensive Kurdish text corpora covering multiple domains and dialects. Our 50-million-word corpus includes automated quality assessment, linguistic annotation, and serves as the foundation for numerous Kurdish NLP applications."
+shortDescription: "Verified Kurdish corpus development across varieties, domains and annotation types"
+description: "A curated overview of verified Kurdish corpus-creation research, including general text collections, educational corpora, syntactically annotated resources, regional varieties and under-resourced Kurdish data."
 icon: "fa-database"
-status: "active"
-startDate: "2021-06-01"
-paperIds: [6]
-datasetIds: [2, 8, 10]
-technologies: ["Corpus Linguistics", "Text Mining", "Quality Assessment", "Linguistic Annotation"]
+startDate: "2013-01-01"
+paperIds: [6, 19, 20, 21, 22, 23]
+datasetIds: [16, 17, 18, 19, 20, 21, 22]
+technologies: ["Corpus Linguistics", "Text Collection", "Linguistic Annotation", "Language Resources"]
 applications: ["Language Research", "NLP Model Training", "Linguistic Analysis"]
-team: ["john-doe", "mohammad-ali", "karim-mohammad"]
-funding: "Kurdistan Academy of Sciences Research Grant"
-publications: 1
-datasets: 3
+team: []
+publications: 6
+datasets: 7
 draft: false
---- 
+---
